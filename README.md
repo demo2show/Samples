@@ -8,7 +8,7 @@
 
 ### 我们提出的模型
 
-整个模型的框架如下图所示，详细设计细节及思路见论文。首先，利用人脸检测和人脸跟踪算法获得场景中/混合语音中说话人的数目并得到每个说话人的人脸缩略图；然后，由视觉编码器提取语音相关的视觉特征，语音编码器提取混合语音声学特征；最后，视觉辅助语音分离网络输入被关注说话人的语音相关视觉特征和混合语音声学特征后，输出被关注说话人的语音。
+整个模型的框架如下图所示，详细设计细节及思路在论文中进行了说明。首先，利用人脸检测和人脸跟踪算法获得场景中/混合语音中说话人的数目并得到每个说话人的人脸缩略图；然后，由视觉编码器提取语音相关的视觉特征，语音编码器提取混合语音声学特征；最后，视觉辅助语音分离网络输入被关注说话人的语音相关视觉特征和混合语音声学特征后，输出被关注说话人的语音。
 
 
 <div align=center><img width="500" src="./image/2-1.png" alt="Audio-visual speech separation networks"/></div>
@@ -47,25 +47,25 @@
 剩余样例以音频形式展示：
 
 <audio id="1_noisy" controls="" preload="none">
-<source id="wav" src="./sample/first_chapter/sample3/sample_1_noisy">
+<source id="wav" src="./sample/first_chapter/sample3/sample_1_noisy.wav">
 </audio>
 
 <audio id="1_separated" controls="" preload="none">
-<source id="wav" src="./sample/first_chapter/sample3/sample_1_separated">
+<source id="wav" src="./sample/first_chapter/sample3/sample_1_separated.wav">
 </audio>
 
 <audio id="2_noisy" controls="" preload="none">
-<source id="wav" src="./sample/first_chapter/sample3/sample_2_noisy">
+<source id="wav" src="./sample/first_chapter/sample3/sample_2_noisy.wav">
 </audio>
 
 <audio id="2_separated" controls="" preload="none">
-<source id="wav" src="./sample/first_chapter/sample3/sample_2_separated">
+<source id="wav" src="./sample/first_chapter/sample3/sample_2_separated.wav">
 </audio>
 
 <audio id="3_noisy" controls="" preload="none">
-<source id="wav" src="./sample/first_chapter/sample3/sample_3_noisy">
+<source id="wav" src="./sample/first_chapter/sample3/sample_3_noisy.wav">
 </audio>
 
 <audio id="3_separated" controls="" preload="none">
-<source id="wav" src="./sample/first_chapter/sample3/sample_3_separated">
+<source id="wav" src="./sample/first_chapter/sample3/sample_3_separated.wav">
 </audio>
