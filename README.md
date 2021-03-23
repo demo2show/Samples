@@ -74,13 +74,13 @@
 
 该小节展示模型在标准数据集上的语音分离效果，两个说话人混合的情况：
 
-##### 混合语音
+##### 混合语音-1
 
 <audio id="1_mix" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/1/mix.wav">
 </audio>
 
-##### 分离语音
+##### 分离语音-1
 
 <audio id="1_pre1" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/1/pre1.wav">
@@ -90,13 +90,13 @@
 <source id="wav" src="./sample/first_chapter/sample4/1/pre2.wav">
 </audio>
 
-##### 混合语音
+##### 混合语音-2
 
 <audio id="3_mix" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/3/mix.wav">
 </audio>
 
-##### 分离语音
+##### 分离语音-2
 
 <audio id="3_pre1" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/3/pre1.wav">
@@ -106,13 +106,13 @@
 <source id="wav" src="./sample/first_chapter/sample4/3/pre2.wav">
 </audio>
 
-##### 混合语音
+##### 混合语音-3
 
 <audio id="5_mix" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/5/mix.wav">
 </audio>
 
-##### 分离语音
+##### 分离语音-3
 
 <audio id="5_pre1" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/5/pre1.wav">
@@ -122,13 +122,13 @@
 <source id="wav" src="./sample/first_chapter/sample4/5/pre2.wav">
 </audio>
 
-##### 混合语音
+##### 混合语音-4
 
 <audio id="12_mix" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/12/mix.wav">
 </audio>
 
-##### 分离语音
+##### 分离语音-4
 
 <audio id="12_pre1" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/12/pre1.wav">
@@ -138,13 +138,13 @@
 <source id="wav" src="./sample/first_chapter/sample4/12/pre2.wav">
 </audio>
 
-##### 混合语音
+##### 混合语音-5
 
 <audio id="10_mix" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/10/mix.wav">
 </audio>
 
-##### 分离语音
+##### 分离语音-5
 
 <audio id="10_pre1" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/10/pre1.wav">
@@ -154,13 +154,13 @@
 <source id="wav" src="./sample/first_chapter/sample4/10/pre2.wav">
 </audio>
 
-##### 混合语音
+##### 混合语音-6
 
 <audio id="8_mix" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/8/mix.wav">
 </audio>
 
-##### 分离语音
+##### 分离语音-6
 
 <audio id="8_pre1" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/8/pre1.wav">
@@ -168,4 +168,40 @@
 
 <audio id="8_pre2" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/8/pre2.wav">
+</audio>
+
+## 第二章样例
+
+### 摘要
+
+在这一章中我们提出了基于生成对抗训练的在线视觉辅助语音分离模型，旨在将模型应用在视频通话，多模态人机交互等在线场景下。该模型在具有挑战性的数据集LRS2上取得了令人满意的性能，并且在GPU、CPU和端侧芯片(如kirin 990)上实现在线实时处理。另外，生成对抗训练可以有效提升分离语音的听感和语音识别性能。
+
+### 分离样例
+
+我们提出的基于生成对抗训练的在线视觉辅助语音分离模型在标准数据集上的分离样例如下所示：
+
+##### 混合语音-1
+
+<audio id="1_mix" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/1_mix.wav">
+</audio>
+
+##### speaker1-1 (纯净语音-->分离语音)
+
+<audio id="1_true1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/1_true1.wav">
+</audio>
+
+<audio id="1_pre1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/1_pre1.wav">
+</audio>
+
+##### speaker2-1 (纯净语音-->分离语音)
+
+<audio id="1_true2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/1_true2.wav">
+</audio>
+
+<audio id="1_pre2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/1_pre2.wav">
 </audio>
