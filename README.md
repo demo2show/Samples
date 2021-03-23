@@ -26,7 +26,7 @@
 
 #### 样例2
 
-该小节展示的样例通过手机、笔记本、带摄像头的麦克风等设备在真实复杂声学环境下录制得到，用于测试的模型在AVSpeech数据集 (中文仅占1%左右) 上训练得到，经过我们的模型处理前后的视频展示结果如下所示。
+该小节展示的样例通过手机、笔记本、带摄像头的麦克风等设备在真实复杂声学环境下录制得到，用于测试的模型在AVSpeech数据集 (中文仅占1%左右) 上训练得到，经过我们的模型处理前后的视频展示结果如下所示 (处理前的视频-->处理后的视频)：
 
 <video id="1_noisy" controls="" preload="none">
 <source id="mp4" src="./sample/first_chapter/sample2/sample_1_noisy.mp4">
@@ -44,7 +44,7 @@
 <source id="mp4" src="./sample/first_chapter/sample2/sample_2_separated.mp4">
 </video>
 
-剩余样例以音频形式展示：
+剩余样例以音频形式展示 (处理前的音频-->处理后的音频)：
 
 <audio id="1_noisy" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample3/sample_1_noisy.wav">
