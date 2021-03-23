@@ -44,7 +44,7 @@
 <source id="mp4" src="./sample/first_chapter/sample2/sample_2_separated.mp4">
 </video>
 
-其它样例以音频形式展示：
+剩余样例以音频形式展示：
 
 <audio id="1_noisy" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample3/sample_1_noisy">
