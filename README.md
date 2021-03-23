@@ -90,6 +90,82 @@
 <source id="wav" src="./sample/first_chapter/sample4/1/pre2.wav">
 </audio>
 
+##### 混合语音
 
+<audio id="3_mix" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/3/mix.wav">
+</audio>
 
+##### 分离语音
 
+<audio id="3_pre1" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/3/pre1.wav">
+</audio>
+
+<audio id="3_pre2" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/3/pre2.wav">
+</audio>
+
+##### 混合语音
+
+<audio id="5_mix" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/5/mix.wav">
+</audio>
+
+##### 分离语音
+
+<audio id="5_pre1" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/5/pre1.wav">
+</audio>
+
+<audio id="5_pre2" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/5/pre2.wav">
+</audio>
+
+##### 混合语音
+
+<audio id="12_mix" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/12/mix.wav">
+</audio>
+
+##### 分离语音
+
+<audio id="12_pre1" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/12/pre1.wav">
+</audio>
+
+<audio id="12_pre2" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/12/pre2.wav">
+</audio>
+
+##### 混合语音
+
+<audio id="10_mix" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/10/mix.wav">
+</audio>
+
+##### 分离语音
+
+<audio id="10_pre1" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/10/pre1.wav">
+</audio>
+
+<audio id="10_pre2" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/10/pre2.wav">
+</audio>
+
+##### 混合语音
+
+<audio id="8_mix" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/8/mix.wav">
+</audio>
+
+##### 分离语音
+
+<audio id="8_pre1" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/8/pre1.wav">
+</audio>
+
+<audio id="8_pre2" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/8/pre2.wav">
+</audio>
