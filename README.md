@@ -69,3 +69,31 @@
 <audio id="3_separated" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample3/sample_3_separated.wav">
 </audio>
+
+#### 样例3
+
+该小节展示模型在标准数据集上的语音分离效果：
+
+<audio id="1_mix" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/1/mix.wav">
+</audio>
+
+<audio id="1_true1" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/1/true1.wav">
+</audio>
+
+<audio id="1_pre1" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/1/pre1.wav">
+</audio>
+
+<audio id="1_true2" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/1/true2.wav">
+</audio>
+
+<audio id="1_pre2" controls="" preload="none">
+<source id="wav" src="./sample/first_chapter/sample4/1/pre2.wav">
+</audio>
+
+
+
+
