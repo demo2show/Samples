@@ -364,3 +364,30 @@
 ### 摘要
 
 本章提出了基于单张图片的时域视觉辅助语音分离模型。本章详细分析了现有的基于单张图片的视觉辅助语音分离模型性能不足的原因，并提出了相应的优化策略。通过分析，造成模型性能不足的原因至少有两个。第一个问题是现有模型均采用时频域编码方法，该编码方法对于语音分离而言是否是最优的还不清楚，另外它还存在相位难以估计的问题。第二个问题是人脸受多种因素（例如，光照和位姿等）的影响从而具有多样性的特点，但是由于用于训练模型的数据量有限，不能涵盖所有的情况，所以会导致模型的泛化能力不足。针对第一个问题，本章采用时域编码方法，并使用门控双通道循环神经网络来构建模型，这不仅有效的避免了相位估计问题，并且增强了模型处理时序数据的能力，进而有效提升模型性能。针对第二个问题，本章提出利用对抗样本在视觉特征层面来隐式建模人脸图像的多样性，从而提升模型的泛化能力。实验结果表明，门控机制和对抗样本可以显著提升模型的性能，与基线模型相比，本文提出的模型信号失真比（signal-to-distortion ratio, SDR）提升为106%。
+
+### 分离样例
+
+我们提出的基于生成对抗训练的在线视觉辅助语音分离模型在标准数据集 (LRS3) 上的分离样例如下所示：
+
+******************************************************************************
+##### 混合语音-1
+<audio id="1_mix" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/2_mix1.wav">
+</audio>
+##### speaker1-1 (纯净语音-->分离语音)
+![image]('./sample/third_chapter/2_face1.jpg')
+<audio id="1_true1" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/2_true1.wav">
+</audio>
+<audio id="1_pre1" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/2_pre1.wav">
+</audio>
+##### speaker2-1 (纯净语音-->分离语音)
+![image]('./sample/third_chapter/2_face2.jpg')
+<audio id="1_true2" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/2_true2.wav">
+</audio>
+<audio id="1_pre2" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/2_pre2.wav">
+</audio>
+******************************************************************************
