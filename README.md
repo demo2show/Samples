@@ -4,7 +4,7 @@
 
 ### 摘要
 
-在这一章中我们提出了基于语音相关视觉特征的视觉辅助语音分离模型，旨在解决鸡尾酒会问题。该模型在四个音视频数据集上 (包括, GRID, TCD-TIMIT, LRS2, AVSpeech) 优于之前所有的视觉辅助语音分离模型，并且在真实复杂听觉场景下取得了令人惊艳的结果。
+本章提出了一种基于语音相关视觉特征的视觉辅助语音分离模型。本文首先对现有的动态视觉特征提取方法做了细致的分析，指出对语音分离任务最有效的视觉特征应该与语音信号具有很强的动态相关性，并将这种视觉特征称为语音相关视觉特征。本文采用一种基于学习联合视听觉表示和生成对抗训练的方法来提取该视觉特征，并基于时域编码方法和时序卷积神经网络构建模型，在多个资源受限数据集和大规模数据集上进行了细致且严谨的实验。实验结果表明，本文提出的模型优于目前最先进的基于视觉辅助的语音分离模型，另外，还测试了模型在真实复杂的听觉场景中的表现，发现模型在多种场景下都取得了令人惊艳的结果，这表明模型具有很强的实用价值。为了缓解部分视频帧丢失时语音分离性能急剧下降的问题，本文提出了随机丢失视频帧的训练策略。实验结果表明，该训练策略可以显著增强模型的鲁棒性，在视频帧随机丢失和视频帧连续丢失场景下都可以维持较好的语音分离性能
 
 ### 我们提出的模型
 
@@ -72,7 +72,7 @@
 
 #### 样例3
 
-该小节展示模型在标准数据集上的语音分离效果，两个说话人混合的情况：
+该小节展示模型在标准数据集 (GRID, TCD-TIMIT and etc.) 上的语音分离效果，两个说话人混合的情况：
 
 ##### 混合语音-1
 
@@ -174,11 +174,11 @@
 
 ### 摘要
 
-在这一章中我们提出了基于生成对抗训练的在线视觉辅助语音分离模型，旨在将模型应用在视频通话，多模态人机交互等在线场景下。该模型在具有挑战性的数据集LRS2上取得了令人满意的性能，并且在GPU、CPU和端侧芯片(如kirin 990)上实现在线实时处理。另外，生成对抗训练可以有效提升分离语音的听感和语音识别性能。
+本章提出了一种基于生成对抗训练的在线视觉辅助语音分离模型。为了拓展模型在在线场景下的应用，设计了在线的视觉辅助语音分离模型。具体地，本文采用因果时序卷积神经网络构建模型，使其在理论上满足在线要求；另外，本文提出了在线流式推理策略，该策略可以使模型在GPU、CPU和端侧芯片 (kirin 990) 上满足在线语音分离要求，并且不会造成任何性能损失。为了缓解语音分离损失函数造成的负面作用，提升分离语音的听感和语音识别的性能。本文采用生成对抗训练方法来优化整个模型，通过生成器（在线视觉辅助语音分离模型）和鉴别器之间的对抗博弈来使分离语音在高维空间中趋近于纯净语音。实验结果表明，该方法在不增加额外模型参数的情况下，不仅可以提升分离语音的听感，还可以明显提升语音识别的性能。本文第一次探索了在线视觉辅助语音分离模型的设计方法，为该模型在视频通话和人机交互等在线场景中应用迈出了重要的一步
 
 ### 分离样例
 
-我们提出的基于生成对抗训练的在线视觉辅助语音分离模型在标准数据集上的分离样例如下所示：
+我们提出的基于生成对抗训练的在线视觉辅助语音分离模型在标准数据集 (LRS2) 上的分离样例如下所示：
 
 ##### 混合语音-1
 
@@ -335,3 +335,115 @@
 <audio id="6_pre2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/6_pre2.wav">
 </audio>
+
+##### 混合语音-7
+
+<audio id="7_mix" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/7_mix.wav">
+</audio>
+
+##### speaker1-7 (纯净语音-->分离语音)
+
+<audio id="7_true1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/7_true1.wav">
+</audio>
+
+<audio id="7_pre1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/7_pre1.wav">
+</audio>
+
+##### speaker2-7 (纯净语音-->分离语音)
+
+<audio id="7_true2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/7_true2.wav">
+</audio>
+
+<audio id="7_pre2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/7_pre2.wav">
+</audio>
+
+##### 混合语音-8
+
+<audio id="8_mix" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/8_mix.wav">
+</audio>
+
+##### speaker1-8 (纯净语音-->分离语音)
+
+<audio id="8_true1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/8_true1.wav">
+</audio>
+
+<audio id="8_pre1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/8_pre1.wav">
+</audio>
+
+##### speaker2-8 (纯净语音-->分离语音)
+
+<audio id="8_true2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/8_true2.wav">
+</audio>
+
+<audio id="8_pre2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/8_pre2.wav">
+</audio>
+
+##### 混合语音-9
+
+<audio id="9_mix" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/9_mix.wav">
+</audio>
+
+##### speaker1-9 (纯净语音-->分离语音)
+
+<audio id="9_true1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/9_true1.wav">
+</audio>
+
+<audio id="9_pre1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/9_pre1.wav">
+</audio>
+
+##### speaker2-9 (纯净语音-->分离语音)
+
+<audio id="9_true2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/9_true2.wav">
+</audio>
+
+<audio id="9_pre2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/9_pre2.wav">
+</audio>
+
+##### 混合语音-10
+
+<audio id="10_mix" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/10_mix.wav">
+</audio>
+
+##### speaker1-10 (纯净语音-->分离语音)
+
+<audio id="10_true1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/10_true1.wav">
+</audio>
+
+<audio id="10_pre1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/10_pre1.wav">
+</audio>
+
+##### speaker2-10 (纯净语音-->分离语音)
+
+<audio id="10_true2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/10_true2.wav">
+</audio>
+
+<audio id="10_pre2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/10_pre2.wav">
+</audio>
+
+## 第三章样例
+
+### 摘要
+
+本章提出了基于单张图片的时域视觉辅助语音分离模型。本文详细分析了现有的基于单张图片的视觉辅助语音分离模型性能不足的原因，并提出了相应的优化策略。通过分析，造成模型性能不足的原因至少有两个。第一个问题是现有模型均采用时频域编码方法，该编码方法对于语音分离而言是否是最优的还不清楚，另外它还存在相位难以估计的问题。第二个问题是人脸受多种因素（例如，光照和位姿等）的影响从而具有多样性的特点，但是由于用于训练模型的数据量有限，不能涵盖所有的情况，所以会导致模型的泛化能力不足。针对第一个问题，本文采用时域编码方法，并使用门控双通道循环神经网络来构建模型，这不仅有效的避免了相位估计问题，并且增强了模型处理时序数据的能力，进而有效提升模型性能。针对第二个问题，本文利用对抗样本在视觉特征层面来隐式建模人脸图像的多样性，从而提升模型的泛化能力。实验结果表明，门控机制和对抗样本可以显著提升模型的性能，与基线模型相比，本文提出的模型信号失真比（signal-to-distortion ratio, SDR）提升为106%。
+
+### 样例
