@@ -1,6 +1,6 @@
 # 样例
 
-## 第一章样例
+## 第二章样例
 
 ### 摘要
 
@@ -160,7 +160,7 @@
 </audio>
 ******************************************************************************
 
-## 第二章样例
+## 第三章样例
 
 ### 摘要
 
@@ -359,8 +359,133 @@
 </audio>
 ******************************************************************************
 
-## 第三章样例
+## 第四章样例
 
 ### 摘要
 
 本章提出了基于单张图片的时域视觉辅助语音分离模型。本章详细分析了现有的基于单张图片的视觉辅助语音分离模型性能不足的原因，并提出了相应的优化策略。通过分析，造成模型性能不足的原因至少有两个。第一个问题是现有模型均采用时频域编码方法，该编码方法对于语音分离而言是否是最优的还不清楚，另外它还存在相位难以估计的问题。第二个问题是人脸受多种因素（例如，光照和位姿等）的影响从而具有多样性的特点，但是由于用于训练模型的数据量有限，不能涵盖所有的情况，所以会导致模型的泛化能力不足。针对第一个问题，本章采用时域编码方法，并使用门控双通道循环神经网络来构建模型，这不仅有效的避免了相位估计问题，并且增强了模型处理时序数据的能力，进而有效提升模型性能。针对第二个问题，本章提出利用对抗样本在视觉特征层面来隐式建模人脸图像的多样性，从而提升模型的泛化能力。实验结果表明，门控机制和对抗样本可以显著提升模型的性能，与基线模型相比，本文提出的模型信号失真比（signal-to-distortion ratio, SDR）提升为106%。
+
+### 分离样例
+
+我们提出的基于生成对抗训练的在线视觉辅助语音分离模型在标准数据集 (LRS3) 上的分离样例如下所示：
+
+******************************************************************************
+##### 混合语音-1
+<audio id="1_mix" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/2_mix1.wav">
+</audio>
+##### speaker1-1 (参考人脸-->纯净语音-->分离语音)
+<div align=left><img width="60" src="./sample/third_chapter/2_face1.jpg" alt="face-1-1"/></div>
+<audio id="1_true1" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/2_true1.wav">
+</audio>
+<audio id="1_pre1" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/2_pre1.wav">
+</audio>
+##### speaker2-1 (参考人脸-->纯净语音-->分离语音)
+<div align=left><img width="60" src="./sample/third_chapter/2_face2.jpg" alt="face-2-1"/></div>
+<audio id="1_true2" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/2_true2.wav">
+</audio>
+<audio id="1_pre2" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/2_pre2.wav">
+</audio>
+******************************************************************************
+
+******************************************************************************
+##### 混合语音-2
+<audio id="3_mix" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/3_mix1.wav">
+</audio>
+##### speaker1-2 (参考人脸-->纯净语音-->分离语音)
+<div align=left><img width="60" src="./sample/third_chapter/3_face1.jpg" alt="face-1-3"/></div>
+<audio id="3_true1" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/3_true1.wav">
+</audio>
+<audio id="3_pre1" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/3_pre1.wav">
+</audio>
+##### speaker2-2 (参考人脸-->纯净语音-->分离语音)
+<div align=left><img width="60" src="./sample/third_chapter/3_face2.jpg" alt="face-2-3"/></div>
+<audio id="3_true2" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/3_true2.wav">
+</audio>
+<audio id="3_pre2" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/3_pre2.wav">
+</audio>
+******************************************************************************
+
+******************************************************************************
+##### 混合语音-3
+<audio id="4_mix" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/4_mix1.wav">
+</audio>
+##### speaker1-3 (参考人脸-->纯净语音-->分离语音)
+<div align=left><img width="60" src="./sample/third_chapter/4_face1.jpg" alt="face-1-4"/></div>
+<audio id="4_true1" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/4_true1.wav">
+</audio>
+<audio id="4_pre1" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/4_pre1.wav">
+</audio>
+##### speaker2-3 (参考人脸-->纯净语音-->分离语音)
+<div align=left><img width="60" src="./sample/third_chapter/4_face2.jpg" alt="face-2-4"/></div>
+<audio id="4_true2" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/4_true2.wav">
+</audio>
+<audio id="4_pre2" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/4_pre2.wav">
+</audio>
+******************************************************************************
+
+******************************************************************************
+##### 混合语音-4
+<audio id="7_mix" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/7_mix1.wav">
+</audio>
+##### speaker1-4 (参考人脸-->纯净语音-->分离语音)
+<div align=left><img width="60" src="./sample/third_chapter/7_face1.jpg" alt="face-1-7"/></div>
+<audio id="7_true1" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/7_true1.wav">
+</audio>
+<audio id="7_pre1" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/7_pre1.wav">
+</audio>
+##### speaker2-4 (参考人脸-->纯净语音-->分离语音)
+<div align=left><img width="60" src="./sample/third_chapter/7_face2.jpg" alt="face-2-7"/></div>
+<audio id="7_true2" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/7_true2.wav">
+</audio>
+<audio id="7_pre2" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/7_pre2.wav">
+</audio>
+##### 时域和频域的可视化图：
+<div align=center><img width="600" src="./sample/third_chapter/7_spec.png" alt="spec-1-7"/></div>
+******************************************************************************
+
+******************************************************************************
+##### 混合语音-5
+<audio id="9_mix" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/9_mix1.wav">
+</audio>
+##### speaker1-5 (参考人脸-->纯净语音-->分离语音)
+<div align=left><img width="60" src="./sample/third_chapter/9_face1.jpg" alt="face-1-9"/></div>
+<audio id="9_true1" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/9_true1.wav">
+</audio>
+<audio id="9_pre1" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/9_pre1.wav">
+</audio>
+##### speaker2-5 (参考人脸-->纯净语音-->分离语音)
+<div align=left><img width="60" src="./sample/third_chapter/9_face2.jpg" alt="face-2-9"/></div>
+<audio id="9_true2" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/9_true2.wav">
+</audio>
+<audio id="9_pre2" controls="" preload="none">
+<source id="wav" src="./sample/third_chapter/9_pre2.wav">
+</audio>
+##### 时域和频域的可视化图：
+<div align=center><img width="600" src="./sample/third_chapter/9_spec.png" alt="spec-1-9"/></div>
+******************************************************************************
+
+从上述结果可以看出，模型在分离两个异性说话人时效果优异；但是在分离同性说话人时 (男-男, 女-女), 性能较差，具体地，可以有效抑制干扰说话人的声音，但是不能完全消除，另外，从时域和频域的可视化图中可以看出分离效果还是存在的。该问题是基于说话人身份信息指导语音分离技术的痛点，比如以voicefilter为代表的工作。但该问题可以用第2、3章的模型有效解决。
