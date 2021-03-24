@@ -375,7 +375,7 @@
 <source id="wav" src="./sample/third_chapter/2_mix1.wav">
 </audio>
 ##### speaker1-1 (纯净语音-->分离语音)
-![image]('./sample/third_chapter/2_face1.jpg')
+![image1-1]('./sample/third_chapter/2_face1.jpg')
 <audio id="1_true1" controls="" preload="none">
 <source id="wav" src="./sample/third_chapter/2_true1.wav">
 </audio>
@@ -383,7 +383,7 @@
 <source id="wav" src="./sample/third_chapter/2_pre1.wav">
 </audio>
 ##### speaker2-1 (纯净语音-->分离语音)
-![image]('./sample/third_chapter/2_face2.jpg')
+![image1-2]('./sample/third_chapter/2_face2.jpg')
 <audio id="1_true2" controls="" preload="none">
 <source id="wav" src="./sample/third_chapter/2_true2.wav">
 </audio>
