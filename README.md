@@ -234,28 +234,28 @@
 
 ##### 混合语音-3
 
-<audio id="3_mix" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/3_mix.wav">
+<audio id="10_mix" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/10_mix.wav">
 </audio>
 
 ##### speaker1-3 (纯净语音-->分离语音)
 
-<audio id="3_true1" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/3_true1.wav">
+<audio id="10_true1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/10_true1.wav">
 </audio>
 
-<audio id="3_pre1" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/3_pre1.wav">
+<audio id="10_pre1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/10_pre1.wav">
 </audio>
 
 ##### speaker2-3 (纯净语音-->分离语音)
 
-<audio id="3_true2" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/3_true2.wav">
+<audio id="10_true2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/10_true2.wav">
 </audio>
 
-<audio id="3_pre2" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/3_pre2.wav">
+<audio id="10_pre2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/10_pre2.wav">
 </audio>
 
 ##### 混合语音-4
@@ -338,37 +338,11 @@
 
 ##### 混合语音-7
 
-<audio id="7_mix" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/7_mix.wav">
-</audio>
-
-##### speaker1-7 (纯净语音-->分离语音)
-
-<audio id="7_true1" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/7_true1.wav">
-</audio>
-
-<audio id="7_pre1" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/7_pre1.wav">
-</audio>
-
-##### speaker2-7 (纯净语音-->分离语音)
-
-<audio id="7_true2" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/7_true2.wav">
-</audio>
-
-<audio id="7_pre2" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/7_pre2.wav">
-</audio>
-
-##### 混合语音-8
-
 <audio id="8_mix" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/8_mix.wav">
 </audio>
 
-##### speaker1-8 (纯净语音-->分离语音)
+##### speaker1-7 (纯净语音-->分离语音)
 
 <audio id="8_true1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/8_true1.wav">
@@ -378,7 +352,7 @@
 <source id="wav" src="./sample/second_chapter/8_pre1.wav">
 </audio>
 
-##### speaker2-8 (纯净语音-->分离语音)
+##### speaker2-7 (纯净语音-->分离语音)
 
 <audio id="8_true2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/8_true2.wav">
@@ -388,13 +362,13 @@
 <source id="wav" src="./sample/second_chapter/8_pre2.wav">
 </audio>
 
-##### 混合语音-9
+##### 混合语音-8
 
 <audio id="9_mix" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/9_mix.wav">
 </audio>
 
-##### speaker1-9 (纯净语音-->分离语音)
+##### speaker1-8 (纯净语音-->分离语音)
 
 <audio id="9_true1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/9_true1.wav">
@@ -404,7 +378,7 @@
 <source id="wav" src="./sample/second_chapter/9_pre1.wav">
 </audio>
 
-##### speaker2-9 (纯净语音-->分离语音)
+##### speaker2-8 (纯净语音-->分离语音)
 
 <audio id="9_true2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/9_true2.wav">
@@ -414,30 +388,30 @@
 <source id="wav" src="./sample/second_chapter/9_pre2.wav">
 </audio>
 
-##### 混合语音-10
+##### 混合语音-9
 
-<audio id="10_mix" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/10_mix.wav">
+<audio id="3_mix" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/3_mix.wav">
 </audio>
 
-##### speaker1-10 (纯净语音-->分离语音)
+##### speaker1-9 (纯净语音-->分离语音)
 
-<audio id="10_true1" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/10_true1.wav">
+<audio id="3_true1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/3_true1.wav">
 </audio>
 
-<audio id="10_pre1" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/10_pre1.wav">
+<audio id="3_pre1" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/3_pre1.wav">
 </audio>
 
-##### speaker2-10 (纯净语音-->分离语音)
+##### speaker2-9 (纯净语音-->分离语音)
 
-<audio id="10_true2" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/10_true2.wav">
+<audio id="3_true2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/3_true2.wav">
 </audio>
 
-<audio id="10_pre2" controls="" preload="none">
-<source id="wav" src="./sample/second_chapter/10_pre2.wav">
+<audio id="3_pre2" controls="" preload="none">
+<source id="wav" src="./sample/second_chapter/3_pre2.wav">
 </audio>
 
 ## 第三章样例
@@ -445,5 +419,3 @@
 ### 摘要
 
 本章提出了基于单张图片的时域视觉辅助语音分离模型。本章详细分析了现有的基于单张图片的视觉辅助语音分离模型性能不足的原因，并提出了相应的优化策略。通过分析，造成模型性能不足的原因至少有两个。第一个问题是现有模型均采用时频域编码方法，该编码方法对于语音分离而言是否是最优的还不清楚，另外它还存在相位难以估计的问题。第二个问题是人脸受多种因素（例如，光照和位姿等）的影响从而具有多样性的特点，但是由于用于训练模型的数据量有限，不能涵盖所有的情况，所以会导致模型的泛化能力不足。针对第一个问题，本章采用时域编码方法，并使用门控双通道循环神经网络来构建模型，这不仅有效的避免了相位估计问题，并且增强了模型处理时序数据的能力，进而有效提升模型性能。针对第二个问题，本章提出利用对抗样本在视觉特征层面来隐式建模人脸图像的多样性，从而提升模型的泛化能力。实验结果表明，门控机制和对抗样本可以显著提升模型的性能，与基线模型相比，本文提出的模型信号失真比（signal-to-distortion ratio, SDR）提升为106%。
-
-### 样例
