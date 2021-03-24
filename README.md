@@ -460,7 +460,7 @@
 <source id="wav" src="./sample/third_chapter/7_pre2.wav">
 </audio>
 ##### 时域和频域的可视化图：
-<div align=left><img width="200" src="./sample/third_chapter/7_spec.png" alt="spec-1-7"/></div>
+<div align=center><img width="600" src="./sample/third_chapter/7_spec.png" alt="spec-1-7"/></div>
 ******************************************************************************
 
 ******************************************************************************
@@ -485,7 +485,7 @@
 <source id="wav" src="./sample/third_chapter/9_pre2.wav">
 </audio>
 ##### 时域和频域的可视化图：
-<div align=left><img width="200" src="./sample/third_chapter/9_spec.png" alt="spec-1-9"/></div>
+<div align=center><img width="600" src="./sample/third_chapter/9_spec.png" alt="spec-1-9"/></div>
 ******************************************************************************
 
 从上述结果可以看出，模型在分离两个异性说话人时效果优异；但是在分离同性说话人时 (男-男, 女-女), 性能较差，具体地，可以有效抑制干扰说话人的声音，但是不能完全消除，另外，从时域和频域的可视化图中可以看出分离效果还是存在的。该问题是基于说话人身份信息指导语音分离技术的痛点，比如以voicefilter为代表的工作。但该问题可以用第2、3章的模型有效解决。
