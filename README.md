@@ -27,23 +27,24 @@
 #### 样例2
 
 该小节展示的样例通过手机、笔记本、带摄像头的麦克风等设备在真实复杂声学环境下录制得到，用于测试的模型在AVSpeech数据集 (中文仅占1%左右) 上训练得到，经过我们的模型处理前后的视频展示结果如下所示 (处理前的视频-->处理后的视频)：
-******************************************************************************
+
 <video id="1_noisy" controls="" preload="none">
 <source id="mp4" src="./sample/first_chapter/sample2/sample_1_noisy.mp4">
 </video>
 <video id="1_separated" controls="" preload="none">
 <source id="mp4" src="./sample/first_chapter/sample2/sample_1_separated.mp4">
 </video>
-******************************************************************************
+
 <video id="2_noisy" controls="" preload="none">
 <source id="mp4" src="./sample/first_chapter/sample2/sample_2_noisy.mp4">
 </video>
 <video id="2_separated" controls="" preload="none">
 <source id="mp4" src="./sample/first_chapter/sample2/sample_2_separated.mp4">
 </video>
-******************************************************************************
+
 
 剩余样例以音频形式展示 (处理前的音频-->处理后的音频)：
+
 ******************************************************************************
 <audio id="1_noisy" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample3/sample_1_noisy.wav">
@@ -51,6 +52,7 @@
 <audio id="1_separated" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample3/sample_1_separated.wav">
 </audio>
+******************************************************************************
 
 ******************************************************************************
 <audio id="2_noisy" controls="" preload="none">
@@ -59,6 +61,7 @@
 <audio id="2_separated" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample3/sample_2_separated.wav">
 </audio>
+******************************************************************************
 
 ******************************************************************************
 <audio id="3_noisy" controls="" preload="none">
@@ -87,6 +90,7 @@
 </audio>
 ******************************************************************************
 
+******************************************************************************
 ##### 混合语音-2
 <audio id="3_mix" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/3/mix.wav">
@@ -100,6 +104,7 @@
 </audio>
 ******************************************************************************
 
+******************************************************************************
 ##### 混合语音-3
 <audio id="5_mix" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/5/mix.wav">
@@ -113,6 +118,7 @@
 </audio>
 ******************************************************************************
 
+******************************************************************************
 ##### 混合语音-4
 <audio id="12_mix" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/12/mix.wav">
@@ -126,6 +132,7 @@
 </audio>
 ******************************************************************************
 
+******************************************************************************
 ##### 混合语音-5
 <audio id="10_mix" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/10/mix.wav">
@@ -139,6 +146,7 @@
 </audio>
 ******************************************************************************
 
+******************************************************************************
 ##### 混合语音-6
 <audio id="8_mix" controls="" preload="none">
 <source id="wav" src="./sample/first_chapter/sample4/8/mix.wav">
@@ -162,239 +170,194 @@
 
 我们提出的基于生成对抗训练的在线视觉辅助语音分离模型在标准数据集 (LRS2) 上的分离样例如下所示：
 
+******************************************************************************
 ##### 混合语音-1
-
 <audio id="1_mix" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/1_mix.wav">
 </audio>
-
 ##### speaker1-1 (纯净语音-->分离语音)
-
 <audio id="1_true1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/1_true1.wav">
 </audio>
-
 <audio id="1_pre1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/1_pre1.wav">
 </audio>
-
 ##### speaker2-1 (纯净语音-->分离语音)
-
 <audio id="1_true2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/1_true2.wav">
 </audio>
-
 <audio id="1_pre2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/1_pre2.wav">
 </audio>
+******************************************************************************
 
+******************************************************************************
 ##### 混合语音-2
-
 <audio id="2_mix" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/2_mix.wav">
 </audio>
-
 ##### speaker1-2 (纯净语音-->分离语音)
-
 <audio id="2_true1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/2_true1.wav">
 </audio>
-
 <audio id="2_pre1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/2_pre1.wav">
 </audio>
-
 ##### speaker2-2 (纯净语音-->分离语音)
-
 <audio id="2_true2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/2_true2.wav">
 </audio>
-
 <audio id="2_pre2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/2_pre2.wav">
 </audio>
+******************************************************************************
 
+******************************************************************************
 ##### 混合语音-3
-
 <audio id="10_mix" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/10_mix.wav">
 </audio>
-
 ##### speaker1-3 (纯净语音-->分离语音)
-
 <audio id="10_true1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/10_true1.wav">
 </audio>
-
 <audio id="10_pre1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/10_pre1.wav">
 </audio>
-
 ##### speaker2-3 (纯净语音-->分离语音)
-
 <audio id="10_true2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/10_true2.wav">
 </audio>
-
 <audio id="10_pre2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/10_pre2.wav">
 </audio>
+******************************************************************************
 
+******************************************************************************
 ##### 混合语音-4
-
 <audio id="4_mix" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/4_mix.wav">
 </audio>
-
 ##### speaker1-4 (纯净语音-->分离语音)
-
 <audio id="4_true1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/4_true1.wav">
 </audio>
-
 <audio id="4_pre1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/4_pre1.wav">
 </audio>
-
 ##### speaker2-4 (纯净语音-->分离语音)
-
 <audio id="4_true2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/4_true2.wav">
 </audio>
-
 <audio id="4_pre2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/4_pre2.wav">
 </audio>
+******************************************************************************
 
+******************************************************************************
 ##### 混合语音-5
-
 <audio id="5_mix" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/5_mix.wav">
 </audio>
-
 ##### speaker1-5 (纯净语音-->分离语音)
-
 <audio id="5_true1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/5_true1.wav">
 </audio>
-
 <audio id="5_pre1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/5_pre1.wav">
 </audio>
-
 ##### speaker2-5 (纯净语音-->分离语音)
-
 <audio id="5_true2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/5_true2.wav">
 </audio>
-
 <audio id="5_pre2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/5_pre2.wav">
 </audio>
+******************************************************************************
 
+******************************************************************************
 ##### 混合语音-6
-
 <audio id="6_mix" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/6_mix.wav">
 </audio>
-
 ##### speaker1-6 (纯净语音-->分离语音)
-
 <audio id="6_true1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/6_true1.wav">
 </audio>
-
 <audio id="6_pre1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/6_pre1.wav">
 </audio>
-
 ##### speaker2-6 (纯净语音-->分离语音)
-
 <audio id="6_true2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/6_true2.wav">
 </audio>
-
 <audio id="6_pre2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/6_pre2.wav">
 </audio>
+******************************************************************************
 
+******************************************************************************
 ##### 混合语音-7
-
 <audio id="8_mix" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/8_mix.wav">
 </audio>
-
 ##### speaker1-7 (纯净语音-->分离语音)
-
 <audio id="8_true1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/8_true1.wav">
 </audio>
-
 <audio id="8_pre1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/8_pre1.wav">
 </audio>
-
 ##### speaker2-7 (纯净语音-->分离语音)
-
 <audio id="8_true2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/8_true2.wav">
 </audio>
-
 <audio id="8_pre2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/8_pre2.wav">
 </audio>
+******************************************************************************
 
+******************************************************************************
 ##### 混合语音-8
-
 <audio id="9_mix" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/9_mix.wav">
 </audio>
-
 ##### speaker1-8 (纯净语音-->分离语音)
-
 <audio id="9_true1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/9_true1.wav">
 </audio>
-
 <audio id="9_pre1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/9_pre1.wav">
 </audio>
-
 ##### speaker2-8 (纯净语音-->分离语音)
-
 <audio id="9_true2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/9_true2.wav">
 </audio>
-
 <audio id="9_pre2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/9_pre2.wav">
 </audio>
+******************************************************************************
 
+******************************************************************************
 ##### 混合语音-9
-
 <audio id="3_mix" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/3_mix.wav">
 </audio>
-
 ##### speaker1-9 (纯净语音-->分离语音)
-
 <audio id="3_true1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/3_true1.wav">
 </audio>
-
 <audio id="3_pre1" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/3_pre1.wav">
 </audio>
-
 ##### speaker2-9 (纯净语音-->分离语音)
-
 <audio id="3_true2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/3_true2.wav">
 </audio>
-
 <audio id="3_pre2" controls="" preload="none">
 <source id="wav" src="./sample/second_chapter/3_pre2.wav">
 </audio>
+******************************************************************************
 
 ## 第三章样例
 
